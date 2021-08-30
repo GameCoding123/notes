@@ -1,0 +1,134 @@
+<!DOCTYPE>
+<html>
+
+<head>
+
+
+</head>
+
+<body>
+<p id="type"></p>
+
+<script>
+var type = document.getElementById("type");
+
+document.onkeydown = keyType;
+
+function keyType(e) {
+
+
+if(e.keyCode == 32) {
+type.innerHTML += ' ';
+}
+
+if(e.keyCode == 65) {
+type.innerHTML += 'a';
+}
+
+if(e.keyCode == 66) {
+type.innerHTML += 'b';
+}
+
+if(e.keyCode == 67) {
+type.innerHTML += 'c';
+}
+
+if(e.keyCode == 68) {
+type.innerHTML += 'd';
+}
+
+if(e.keyCode == 69) {
+type.innerHTML += 'e';
+}
+
+if(e.keyCode == 70) {
+type.innerHTML += 'f';
+}
+
+if(e.keyCode == 71) {
+type.innerHTML += 'g';
+}
+
+if(e.keyCode == 72) {
+type.innerHTML += 'h';
+}
+
+if(e.keyCode == 73) {
+type.innerHTML += 'i';
+}
+
+if(e.keyCode == 74) {
+type.innerHTML += 'j';
+}
+
+if(e.keyCode == 75) {
+type.innerHTML += 'k';
+}
+
+if(e.keyCode == 76) {
+type.innerHTML += 'l';
+}
+
+if(e.keyCode == 77) {
+type.innerHTML += 'm';
+}
+
+if(e.keyCode == 78) {
+type.innerHTML += 'n';
+}
+
+if(e.keyCode == 79) {
+type.innerHTML += 'o';
+}
+
+if(e.keyCode == 80) {
+type.innerHTML += 'p';
+}
+
+if(e.keyCode == 81) {
+type.innerHTML += 'q';
+}
+
+if(e.keyCode == 82) {
+type.innerHTML += 'r';
+}
+
+if(e.keyCode == 83) {
+type.innerHTML += 's';
+}
+
+if(e.keyCode == 84) {
+type.innerHTML += 't';
+}
+
+if(e.keyCode == 85) {
+type.innerHTML += 'u';
+}
+
+if(e.keyCode == 86) {
+type.innerHTML += 'v';
+}
+
+if(e.keyCode == 87) {
+type.innerHTML += 'w';
+}
+
+if(e.keyCode == 88) {
+type.innerHTML += 'x';
+}
+
+if(e.keyCode == 89) {
+type.innerHTML += 'y';
+}
+
+if(e.keyCode == 90) {
+type.innerHTML += 'z';
+}
+
+}
+
+</script>
+
+</body>
+
+</html>
